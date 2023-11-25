@@ -1,0 +1,13 @@
+Virtual env in windows
+ .create venv
+ .activate script
+ . 
+
+Python test script 
+
+Run code quality tests using flake
+
+Dockerfile structure
+
+docker tag flask-hello-world mfofanagn/flask-hello-world
+docker push mfofanagn/flask-hello-world
