@@ -11,3 +11,12 @@ Dockerfile structure
 
 docker tag flask-hello-world mfofanagn/flask-hello-world
 docker push mfofanagn/flask-hello-world
+
+jenkins admin admin
+
+https://hub.docker.com/mfofanagn/flask-hello-world/
+https://hub.docker.com/mfofanagn/flask-hello-world/
+
+https://hub.docker.com/layers/mfofanagn/flask-hello-world/
+
+sh 'docker image build -t $DOCKER_HUB_REPO:latest .'
