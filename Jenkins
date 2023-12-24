@@ -36,7 +36,7 @@ pipeline {
                echo 'Deploying....'
                /*sh 'minikube kubectl -- apply -f deployment.yaml'*/
               /*sh 'minikube kubectl -- apply -f service.yaml'*/
-               sh 'sudo usermod -aG docker $USER && newgrp docker'
+               /*sh 'sudo usermod -aG docker $USER && newgrp docker'*/
                sh 'minikube start'
                sh 'alias kubectl="minikube kubectl --"'
                sh 'kubectl apply -f deployment.yaml'
